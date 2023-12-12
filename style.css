@@ -1,0 +1,329 @@
+body{
+    background-color: #000;
+    height: 2750px ;
+    width: 1512px;
+    font-family: arial;
+}
+span{
+    color: #00fa08;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    padding-left: 970px;
+    padding-right: 100px;
+    color: #00ff08;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.item{ 
+    position: absolute;
+}
+#titportfolio{
+    left: 160px;
+    top: 40px;
+    font-size: 28px;
+    width: 119px;
+    color: #00ff08;
+}
+#nome {
+    left: 160px;
+    top: 224px;
+    font-size: 55px;
+    width: 430px;
+    font-weight: Bold;
+    color: #fff;
+}
+#textobio {
+    left: 160px;
+    top: 410px;
+    font-size: 16px;
+    width: 398px;
+    color:#fff ;
+}
+#meusservicos1 {
+    left: 190px;
+    top: 505px;
+    font-size: 16px;
+    width: 180px;
+    font-weight: SemiBold;
+    color: #000;
+}
+#imgservico {
+    left: 706px;
+    top: 166px;
+    width: 700px;
+    height: 460px;
+    border-radius: 60px;
+}
+#clientes {
+    left: 160px;
+    top: 700px;
+    font-size: 16px;
+    width: 210px;
+    font-weight: SemiBold;
+    color: #fff;
+}
+#apple {
+    left: 600px;
+    top: 710px;
+    width: 80px;
+    height: 25px;
+}
+#slack {
+    left: 900px;
+    top: 710px;
+    width: 80px;
+    height: 25px;
+}
+#spotify {
+    left: 1200px;
+    top: 710px;
+    width: 80px;
+    height: 25px;
+}
+#conheca {
+    left: 700px;
+    top: 840px;
+    font-size: 18px;
+    width: 75px;
+    font-weight: Bold;
+    color: #fff;
+    text-align: center; 
+}
+#meusservicos2 {
+    left: 624px;
+    top: 866px;
+    font-size: 36px;
+    width: 265px;
+    font-weight: Bold;
+}
+#textoservicos {
+    left: 620px;
+    top: 940px;
+    font-size: 16px;
+    width: 236px;
+    color: #fff;
+    position: absolute; 
+    text-align: center; 
+}
+#espserv {
+    left: 160px;
+    top: 490px;
+    width: 180px;
+    height: 48px;
+    background-color: #00ff08;
+    border-radius: 60px;
+}
+#consultoria{
+    left: 308px; 
+    top: 1127px; 
+    position: absolute; 
+    color: #fff; 
+    font-size: 20px; 
+    font-weight: 600; 
+    word-wrap: break-word
+    
+}
+#textoconsultoria{
+    left: 250px; 
+    top: 1158px; 
+    position: absolute; 
+    text-align: center; 
+    color: #fff; 
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 32px; 
+    word-wrap: break-word
+}
+#imgconsultoria{
+    width: 80px; 
+    height: 60px; 
+    left: 330px; 
+    top: 1080px; 
+    position: absolute;
+    border-radius: 40px;
+}
+#emailmark{
+    left: 690px; 
+    top: 1127px; 
+    position: absolute; 
+    color: #fff; 
+    font-size: 20px; 
+    font-weight: 600; 
+    word-wrap: break-word;
+    
+}
+#textoemail{
+    left: 650px; 
+    top: 1158px; 
+    position: absolute; 
+    text-align: center; 
+    color: #fff; 
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 32px; 
+    word-wrap: break-word
+}
+#imgemail{
+    width: 80px; 
+    height: 60px; 
+    left: 730px; 
+    top: 1080px; 
+    position: absolute; 
+    border-radius: 40px;
+    
+}
+#site{
+    left: 1064px; 
+    top: 1127px; 
+    position: absolute; 
+    color: #fff; 
+    font-size: 20px; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+#textosite{
+    left: 1025px; 
+    top: 1158px; 
+    position: absolute; 
+    text-align: center; 
+    color: #fff; 
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 32px; 
+    word-wrap: break-word
+}
+#imgsite {
+    width: 80px; 
+    height: 60px; 
+    left: 1100px; 
+    top: 1080px; 
+    position: absolute; 
+    border-radius: 40px;
+  
+}
+#texto1 {
+    left: 950px;
+    top: 1449px;
+    font-size: 36px;
+    width: 386px;
+    font-weight: Bold;
+    color: #fff;
+}
+    
+#texto2 {
+    left: 950px;
+    top: 1430px;
+    font-size: 18px;
+    width: 180px;
+    font-weight: Bold;
+    color: #fff;
+}
+#texto3 {
+    left: 950px;
+    top: 1523px;
+    font-size: 16px;
+    width: 407px;
+    color: #fff;
+}
+
+#emailinput{
+    left: 950px;
+    top: 1610px;
+    width: 380px;
+    height: 48px;
+    font-size: 20px;
+    font-family: Poppins;
+    position: absolute;
+    border-radius: 30px;
+  
+}
+#button {
+    left: 950px;
+    top: 1680px;
+    width: 180px;
+    height: 48px;
+    font-size: 20px;
+    background-color: #00ff08;
+    position: absolute;
+    border-radius: 30px;
+}
+
+#img2 {
+    left: 180px;
+    top: 1420px;
+    width: 700px;
+    height: 460px;
+    border-radius: 60px;
+}
+#textoport {
+    left: 181px;
+    top: 1980px;
+    font-size: 18px;
+    width: 191px;
+    font-weight: Bold;
+    color: #fff;
+}
+#port {
+    left: 181px;
+    top: 2010px;
+    font-size: 36px;
+    width: 141px;
+    font-weight: Bold;
+    
+}
+#port1{
+    left: 181px;
+    top: 2120px;
+    width: 300px;
+    height: 225px;
+    border-radius: 40px;
+    border: 5px solid #00ff08;
+}
+#port2 {
+    left: 600px;
+    top: 2120px;
+    width: 339px;
+    height: 225px;
+    border-radius: 40px;
+    border: 5px solid #00ff08;
+}
+#port3 {
+    left: 1050px;
+    top: 2120px;
+    width: 340px;
+    height: 225px;
+    border-radius: 40px;
+    border: 5px solid #00ff08;
+}
+#applef {
+    left: 580px;
+    top: 700px;
+    width: 120px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#slackf {
+    left: 882px;
+    top: 700px;
+    width: 120px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#spotifyf{
+    left: 1180px;
+    top: 700px;
+    width: 120px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 10px;
+}
